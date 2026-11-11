@@ -1,0 +1,11 @@
+{
+  "name": "staystone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Staystone, club deals et transactions hôtelières (version de démonstration autonome)",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "npx --yes serve dist -l ${PORT:-3000}"
+  },
+  "engines": { "node": ">=18" }
+}
